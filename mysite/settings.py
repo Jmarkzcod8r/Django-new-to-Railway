@@ -37,6 +37,7 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
+    'todo_app'
 ]
 
 MIDDLEWARE = [
@@ -73,6 +74,7 @@ WSGI_APPLICATION = 'mysite.wsgi.application'
 # Database
 # https://docs.djangoproject.com/en/4.1/ref/settings/#databases
 
+# This is the default database but other databases can be integrated as well.
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.sqlite3',
